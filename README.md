@@ -28,3 +28,9 @@ Add config.trelloKey = '<>>'
 ```javascript
 mvn test '-Dkarate.options=--tags @GetAllBoards'
 ```
+
+## Maven Goal to run the gatling performance test
+
+```bash
+mvn clean test-compile gatling:test
+```
